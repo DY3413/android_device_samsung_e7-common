@@ -1,4 +1,4 @@
-# Samsung Package Version J500HXXU1APE5_J500HOXE1APE5_J500HXXU1APC2 (unless otherwise specified and/or tagged)
+# Samsung Package Version E700FXXS1BRK3_E700FOJV1BRK3_E700FXXU1BOL1 (unless otherwise specified and/or tagged)
 
 # ACDBs
 etc/Bluetooth_cal.acdb
@@ -9,7 +9,7 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
-# Qualcomm framework
+# Qualcomm framework - J500HXXU1APE5_J500HOXE1APE5_CAU
 vendor/lib/libdiag.so|8c4d49b3c7a40d7a87f063982bd08181dce5135a
 vendor/lib/libdsutils.so|8cf50e480004658b076d352dc23074b32a775705
 vendor/lib/libidl.so|ee39892a2529284084906c18b36bb517e5001a6d
@@ -23,11 +23,11 @@ vendor/lib/libqmiservices.so|639ad795ad821cef949dd7d780001d992a61d708
 vendor/lib/libqmi.so|e8d0ea6d7302e07d23dfb73a89b5818cebd054ef
 
 # QSEEcom - J500HXXU2BQC4_J500HOXE2BQC2_CAU
-bin/qseecomd:e901e0ca7ffa5888e4407ba8cbd209129d6dfa05c22c50db92f40e3ff035b0c0
-vendor/lib/libQSEEComAPI.so:ea9511b3cb7a5aa6c90526a02d37733fb64e9c2bbf58f58e14d32c625da7dc3e
+bin/qseecomd:vendor/bin/qseecomd|da191cb3334f3a6c1f9d439755000bad0c998184
+vendor/lib/libQSEEComAPI.so|581c0c409d36b59633427198ceb223ebb39a1fa7
 
 # Camera
-etc/T13QL_s5k3l2xx_module_info.xml
+etc/H13QL_s5k3l2xx_module_info.xml
 lib/hw/camera.msm8916.so:lib/hw/camera.vendor.msm8916.so
 lib/libaec_algo_front.so
 lib/libaec_algo_rear.so
@@ -37,7 +37,7 @@ lib/libAl_Awb_Sp.so
 lib/libawb_algo_front_al.so
 lib/libawb_algo_rear_al.so
 lib/libmmcamera2_stats_algorithm.so
-lib/libmmcamera_cac2_lib.so
+lib/libmmcamera_cac2_lib_13M.so
 lib/libmmcamera_wavelet_lib.so
 lib/libchromatix_s5k3l2xx_common_1080p_b.so
 lib/libchromatix_s5k3l2xx_common_1080p_s.so
@@ -56,10 +56,8 @@ lib/libchromatix_s5k3l2xx_panorama.so
 lib/libchromatix_s5k3l2xx_pip.so
 lib/libchromatix_s5k3l2xx_preview.so
 lib/libchromatix_s5k3l2xx_snapshot.so
-lib/libchromatix_s5k3l2xx_sports.so
 lib/libchromatix_s5k3l2xx_uhd_video.so
 lib/libchromatix_s5k3l2xx_zslshot.so
-lib/libTsAf.so
 vendor/lib/libactuator_dw9806_camcorder.so
 vendor/lib/libactuator_dw9806_camera.so
 vendor/lib/libchromatix_s5k3l2xx_vt_hd.so
@@ -85,11 +83,13 @@ vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libmmcamera2_wnr_module.so
 vendor/lib/libmmcamera_dw_dw9806b_eeprom.so
+vendor/lib/libmmcamera_dw_dw9807_eeprom.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hdr_lib.so
 vendor/lib/libmmcamera_image_stab.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so
+vendor/lib/libmmcamera_m24128s_eeprom.so
 vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so
 vendor/lib/libmmcamera_s5k3l2xx.so
 vendor/lib/libmmcamera_s5k5e3yx.so
